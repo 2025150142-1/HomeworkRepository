@@ -1,0 +1,60 @@
+body {
+    font-family: 'Malgun Gothic', sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.container {
+    width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid black;
+    text-align: left;
+}
+
+h1 {
+    font-size: 22px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.input-group label {
+    width: 100px;
+    font-weight: bold;
+}
+
+input:not([type="radio"]), select {
+    flex: 1;
+    height: 25px;
+    padding: 2px 5px;
+    border: 1px solid #ccc;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-signup {
+    background-color: #90ee90;
+    width: 80px;
+    height: 35px;
+    border: 1px solid #777;
+    cursor: pointer;
+}
+
+.btn-cancel {
+    background-color: #ff0000;
+    color: white;
+    width: 80px;
+    height: 35px;
+    border: 1px solid #777;
+    cursor: pointer;
+}
